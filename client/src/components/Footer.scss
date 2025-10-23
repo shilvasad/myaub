@@ -1,0 +1,13 @@
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #e9ecef; /* Updated background to a light gray for better contrast */
+  color: #495057; /* Adjusted text color for readability */
+  position: fixed; /* Ensures footer stays at the bottom */
+  bottom: 0;
+  width: 100%;
+
+  p {
+    margin: 0.25rem 0;
+  }
+}

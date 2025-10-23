@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>404 • AI Course Builder</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <style>
+    .notfound-container { display:flex; align-items:center; justify-content:center; min-height:100vh; padding:24px; }
+    .notfound-box { text-align:center; max-width:760px; width:100%; padding:40px; border-radius:12px; background:#fff; box-shadow:0 10px 30px rgba(0,0,0,0.08); }
+    .notfound-code { font-size:96px; font-weight:700; color:#111827; margin:0; }
+    .notfound-title { font-size:24px; font-weight:600; color:#111827; margin:12px 0; }
+    .notfound-desc { font-size:16px; color:#6b7280; margin:0 0 16px; }
+    .notfound-actions { margin-top:20px; }
+    .notfound-actions a { display:inline-block; margin:6px; padding:12px 18px; border-radius:8px; text-decoration:none; font-weight:600; }
+    .btn-home { background:#3b82f6; color:#fff; }
+    .btn-report { background:#f3f4f6; color:#111827; border:1px solid #e5e7eb; }
+    @media (max-width:600px) {
+      .notfound-code { font-size:64px; }
+      .notfound-box { padding:24px; }
+    }
+  </style>
+</head>
+<body class="antialiased text-gray-800">
+  <div class="notfound-container">
+    <div class="notfound-box">
+      <div class="notfound-code">404</div>
+      <div class="notfound-title">Page not found</div>
+      <p class="notfound-desc">Sorry, we couldn’t find the page you were looking for. It may have been moved or deleted.</p>
+      <div class="notfound-actions">
+        <a class="btn-home" href="/">Go to homepage</a>
+        <a class="btn-report" href="mailto:hello@example.com">Report an issue</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

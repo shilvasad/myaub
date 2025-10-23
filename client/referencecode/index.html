@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Course Builder</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="antialiased text-gray-800">
+
+    <div class="container mx-auto p-4 md:p-8 max-w-4xl">
+        <header class="text-center mb-8">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-900">AI Course Builder</h1>
+            <p class="text-lg text-gray-600 mt-2">Your personalized learning path, powered by Gemini.</p>
+        </header>
+
+        <div id="breadcrumbs" class="flex items-center space-x-2 text-sm text-gray-500 mb-6 flex-wrap"></div>
+
+        <main id="main-content">
+            <!-- Dynamic Content Goes Here -->
+        </main>
+
+        <div id="loader-container" class="hidden flex justify-center items-center mt-8">
+            <div id="loader"></div>
+        </div>
+
+        <div id="error-container" class="hidden mt-6 p-4 bg-red-100 text-red-700 border border-red-300 rounded-lg">
+            <p id="error-message"></p>
+        </div>
+
+    </div>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
